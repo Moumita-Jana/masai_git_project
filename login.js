@@ -3,7 +3,7 @@
 let str="NAMAN"
 let bag="";
 
-for(let i=str.length;i<=0;i++){
+for(let i=str.length-1;i>=0;i--){
    
   bag+=str[i];
 
@@ -31,9 +31,9 @@ for(let i=1;i<=num;i++){
 if(num%i==0){
   factor++;
 }
+}
 
-
-if(facctor==1){
+if(factor==2){
    
   console.log("Prime");
 }else{
