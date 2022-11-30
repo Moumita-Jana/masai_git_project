@@ -1,6 +1,6 @@
 //check Palindrome
 
-let str="naman"
+let str="NAMAN"
 let bag="";
 
 for(let i=str.length;i<=0;i++){
@@ -23,7 +23,7 @@ if(bag==str){
 
 let factor=0;
 
-let num=13;
+let num=19;
 
 for(let i=1;i<=num;i++){
   
